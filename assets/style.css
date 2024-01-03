@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+#todolist {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(248, 212, 185, 0.8431372549);
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task input[type=checkbox] {
+  margin-right: 1px;
+}
+
+.completed-task {
+  color: #888;
+}
+
+#supprimertaches {
+  background-color: #fa672d;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
